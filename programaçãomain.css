@@ -1,0 +1,268 @@
+/*header*/
+.linharoxa {
+    height: 35px;
+    width: 1233px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    background-color:blueviolet;
+    text-align: right;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 10px;
+    display: inline-table;
+    
+}
+.fone {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 70px;
+    top: 6px;
+    right:423px;
+    
+     
+    
+}
+.faleconoscolink {
+    background-color:blueviolet;
+      color: rgb(0, 0, 0);
+      padding: 7px 50px;
+      text-decoration: none;
+      
+}
+p {
+    position: absolute;
+    right: 90px;
+    top: -10px;
+    color: black;
+    
+}
+
+header {
+    height: 75px;
+    width: 1282px;
+    position: relative;
+    top: 30px;
+    left: -10px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+.logo {
+    width:125px; 
+    height:125px;
+    top: -40px;
+    position: absolute;
+
+}
+.casa {
+    width: 20px; 
+    height:20px;
+    right: 1125px;
+    top: 20px;
+    position: absolute;
+
+}
+.home {
+    right: 1015px;
+    top:6px;
+}
+
+.ping {
+    width: 20px; 
+    height:20px;
+    right: 965px;
+    top: 20px;
+    position: absolute;
+}
+
+.localizador {
+    right: 800px;
+    top:6px
+}
+
+.linhas {
+    width: 20px; 
+    height:20px;
+    right: 750px;
+    top: 19px;
+    position: absolute;
+}
+
+.programas {
+    right: 600px;
+    top:6px
+}
+.avião {
+    width: 20px; 
+    height:20px;
+    right: 545px;
+    top: 22px;
+    position: absolute;
+}
+
+.sobre {
+    right: 458px;
+    top:06px
+}
+
+.div2 {
+    height: 6px;
+    width: 1265px;
+    position: relative;
+    top: 20px;
+    left: -10px;
+    background-color: blueviolet;
+    text-align: right;
+}
+/*header */
+
+
+.perdida {
+    width: 432px;
+    height: 444px;
+   
+    position: absolute;
+    top: 420px;
+    left: 160px; 
+}
+.pessoas {
+    width: 330px;
+    height: 330px;
+    position: absolute;
+    top: 371px;
+    right: 167px;
+}
+.alegria {
+    width: 378px;
+    height: 369px;
+    position: absolute;
+    top: 245px;
+    right: 395px;
+}
+.botao{
+    position:relative;
+    
+}
+.intercambio {
+    width: 489px;
+    height: 219px;
+    position: absolute;
+    top: 135px;
+    left: 175px;
+}
+.bloquinho {
+    height: 115px;
+    width: 285px;
+    position: absolute;
+    top: 740px;
+    left: 600px;
+    background-color:rgba(223, 180, 243, 0.925);
+    text-align: right;
+    border-radius: 60px;
+    display: inline-table;
+}
+.partiuprafora {
+    position: absolute;
+    font-size: 47px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    top: 695px;
+    left: 628px;
+    
+}
+.partiuparafora {
+    text-decoration: none;
+    color:black;
+}
+.escolhaseu {
+    position: absolute;
+    font-size: 20px;
+    font-family:'Indie Flower', cursive;
+    top: 770px;
+    left: 636px;
+}
+.orçamento {
+    position: absolute;
+    font-size: 20px;
+    font-family:'Indie Flower', cursive;
+    top: 790px;
+    left: 650px;
+}
+/*footer*/
+
+footer {
+    height: 170px;
+    width: 1270px;
+    position: absolute;
+    top: 950px;
+    left: -10px;
+    background-color:blueviolet;
+    text-align: right;
+    display: inline-table;
+}
+
+.menu {
+    right: 1150px;
+    position: absolute;
+    top: 950px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.paginicial {
+    right: 1075px;
+    position: absolute;
+    top: 990px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.saibaseu {
+    right: 1025px;
+    position: absolute;
+    top: 1020px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.nossos {
+    right: 1033px;
+    position: absolute;
+    top: 1050px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.sobrenos {
+    right: 1097px;
+    position: absolute;
+    top: 1080px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.contato {
+    right: 200px;
+    position: absolute;
+    top: 990px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.email {
+    right: 200px;
+    position: absolute;
+    top: 1020px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.telefone {
+    right: 275px;
+    position: absolute;
+    top: 1050px;
+    color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+/*footer/*
