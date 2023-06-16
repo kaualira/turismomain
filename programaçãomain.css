@@ -1,4 +1,14 @@
 /*header*/
+html {
+    margin: 0px;
+    min-height: 100vh;
+}
+body {
+    margin: 0px;
+    min-height: 100vh;
+    max-width: 400px;
+    
+}
 .linharoxa {
     height: 35px;
     width: 1233px;
@@ -38,20 +48,30 @@ p {
     
 }
 
+.fixo {
+    position: fixed;
+    z-index: 2;
+}
+.index {
+    z-index: -1;
+}
+
+
 header {
     height: 75px;
     width: 1282px;
     position: relative;
-    top: 30px;
+    top: 27px;
     left: -10px;
     background-color: rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
     margin: 0;
 }
+
 .logo {
     width:125px; 
     height:125px;
-    top: -40px;
+    top: -30px;
     position: absolute;
 
 }
@@ -59,56 +79,56 @@ header {
     width: 20px; 
     height:20px;
     right: 1125px;
-    top: 20px;
+    top: 23px;
     position: absolute;
 
 }
 .home {
     right: 1015px;
-    top:6px;
+    top:8px;
 }
 
 .ping {
     width: 20px; 
     height:20px;
     right: 965px;
-    top: 20px;
+    top: 23px;
     position: absolute;
 }
 
 .localizador {
     right: 800px;
-    top:6px
+    top:8px
 }
 
 .linhas {
     width: 20px; 
     height:20px;
     right: 750px;
-    top: 19px;
+    top: 22px;
     position: absolute;
 }
 
 .programas {
     right: 600px;
-    top:6px
+    top:8px
 }
 .avião {
     width: 20px; 
     height:20px;
     right: 545px;
-    top: 22px;
+    top: 25px;
     position: absolute;
 }
 
 .sobre {
     right: 458px;
-    top:06px
+    top:8px
 }
 
 .div2 {
-    height: 6px;
-    width: 1265px;
+    height: 8px;
+    width: 1277px;
     position: relative;
     top: 20px;
     left: -10px;
@@ -117,7 +137,7 @@ header {
 }
 /*header */
 
-
+/*começo da primeira pagina*/
 .perdida {
     width: 432px;
     height: 444px;
@@ -139,72 +159,321 @@ header {
     position: absolute;
     top: 245px;
     right: 395px;
-}
-.botao{
-    position:relative;
-    
-}
+}   
+
 .intercambio {
     width: 489px;
     height: 219px;
+    top:130px;
+    left:155px;
     position: absolute;
-    top: 135px;
-    left: 175px;
-}
-.bloquinho {
-    height: 115px;
-    width: 285px;
-    position: absolute;
-    top: 740px;
-    left: 600px;
-    background-color:rgba(223, 180, 243, 0.925);
-    text-align: right;
-    border-radius: 60px;
-    display: inline-table;
-}
-.partiuprafora {
-    position: absolute;
-    font-size: 47px;
-    font-family: 'Mouse Memoirs', sans-serif;
-    top: 695px;
-    left: 628px;
     
 }
-.partiuparafora {
-    text-decoration: none;
-    color:black;
-}
-.escolhaseu {
+
+.PartiuParaFora {
+    top:710px;
+    left: 590px;
+    width: 320px;
+    height: 180px;
     position: absolute;
-    font-size: 20px;
-    font-family:'Indie Flower', cursive;
-    top: 770px;
-    left: 636px;
 }
-.orçamento {
+
+/*fim da primeira pagina*/
+/*começo da segunda pagina*/
+.saibaseupaisimg {
+    top: 1010px;
+    left: 380px;
     position: absolute;
-    font-size: 20px;
-    font-family:'Indie Flower', cursive;
-    top: 790px;
-    left: 650px;
+    width: 532px;
+    height: 100px;
+}
+.frasesaibaseu {
+    font-size: medium;
+    position: absolute;
+    top: 1120px;
+    left: 280px;
+    font-family: 'Indie Flower', cursive;
+    
+}
+.frasepaisideal {
+    font-size: medium;
+    position: absolute;
+    top: 1140px;
+    left: 275px;
+    font-family: 'Indie Flower', cursive;
+}
+.blocorosa {
+    background-color: rgb(215, 176, 238);
+    width: 960px;
+    height: 1660px;
+    top: 1220px;
+    left: 148px;
+    position: absolute;
+    border-radius: 30px;
+}
+.blocoeua {
+    /* background-color: lightgreen; */
+    width: 235px;
+    height: 300px;
+    top: 63px;
+    left: 45px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.eua {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 75px;
+}
+.fraseeua{
+    left: 0px;
+    width: 235px;
+    top: 90px;
+    position: absolute;
+    font-family:  'Indie Flower', cursive;
+    
+}
+.blococanada {
+    /* background-color: lightgreen; */
+    width: 235px;
+    height: 300px;
+    top: 63px;
+    left: 365px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.canada {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 75px;
+}
+.frasecanada {
+    left: 0px;
+    width: 235px;
+    top: 90px;
+    position: absolute;
+    font-family:  'Indie Flower', cursive;
+}
+.blocoportugal {
+    /* background-color: lightgreen; */
+    width: 235px;
+    height: 300px;
+    top: 63px;
+    left: 680px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.portugal {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 75px;
+}
+.fraseportugal {
+    left: 0px;
+    width: 235px;
+    top: 90px;
+    position: absolute;
+    font-family:  'Indie Flower', cursive;
+}
+.blocoalemanha {
+    /* background-color: lightgreen; */
+    width: 235px;
+    height: 300px;
+    top: 470px;
+    left: 45px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.alemanha {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 75px;
+}
+.frasealemanha{
+    left: 0px;
+    width: 235px;
+    top: 90px;
+    position: absolute;
+    font-family:  'Indie Flower', cursive;
+    
+}
+.blocofranca {
+    /* background-color: lightgreen; */
+    width: 235px;
+    height: 300px;
+    top: 470px;
+    left: 365px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.franca {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 75px;
+}
+.frasefranca {
+    left: 0px;
+    width: 235px;
+    top: 90px;
+    position: absolute;
+    font-family:  'Indie Flower', cursive;
+}
+.blocojapao {
+    /* background-color: lightgreen; */
+    width: 235px;
+    height: 300px;
+    top: 470px;
+    left: 680px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.japao {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 75px;
+}
+.frasejapao {
+    left: 0px;
+    width: 235px;
+    top: 90px;
+    position: absolute;
+    font-family:  'Indie Flower', cursive;
+}
+.blocosuica {
+    /* background-color: lightgreen; */
+    width: 235px;
+    height: 300px;
+    top: 877px;
+    left: 45px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.suica {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 75px;
+}
+.frasesuica{
+    left: 0px;
+    width: 235px;
+    top: 90px;
+    position: absolute;
+    font-family:  'Indie Flower', cursive;
+    
+}
+.blocoaustralia {
+    /* background-color: lightgreen; */
+    width: 235px;
+    height: 300px;
+    top: 877px;
+    left: 365px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.australia {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 75px;
+}
+.fraseaustralia{
+    left: 0px;
+    width: 235px;
+    top: 90px;
+    position: absolute;
+    font-family:  'Indie Flower', cursive;
+    
+}
+.blocoinglaterra {
+    /* background-color: lightgreen; */
+    width: 235px;
+    height: 300px;
+    top: 877px;
+    left: 680px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.inglaterra {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 75px;
+}
+.fraseinglaterra {
+    left: 0px;
+    width: 235px;
+    top: 90px;
+    position: absolute;
+    font-family:  'Indie Flower', cursive;
+}
+.blocoirlanda {
+    /* background-color: lightgreen; */
+    width: 235px;
+    height: 300px;
+    top: 1280px;
+    left: 365px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.irlanda {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 75px;
+}
+.fraseirlanda{
+    left: 0px;
+    width: 235px;
+    top: 90px;
+    position: absolute;
+    font-family:  'Indie Flower', cursive;
 }
 /*footer*/
 
 footer {
     height: 170px;
-    width: 1270px;
+    width: 1273px;
     position: absolute;
-    top: 950px;
+    top: 9500px;
     left: -10px;
     background-color:blueviolet;
     text-align: right;
     display: inline-table;
+    margin: 0;
 }
+
 
 .menu {
     right: 1150px;
     position: absolute;
-    top: 950px;
+    top: 9500px;
     color: white;
     font-family: 'Inter', sans-serif;
 }
@@ -212,7 +481,7 @@ footer {
 .paginicial {
     right: 1075px;
     position: absolute;
-    top: 990px;
+    top: 9540px;
     color:rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
 }
@@ -220,7 +489,7 @@ footer {
 .saibaseu {
     right: 1025px;
     position: absolute;
-    top: 1020px;
+    top: 9570px;
     color:rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
 }
@@ -228,7 +497,7 @@ footer {
 .nossos {
     right: 1033px;
     position: absolute;
-    top: 1050px;
+    top: 9600px;
     color:rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
 }
@@ -236,7 +505,7 @@ footer {
 .sobrenos {
     right: 1097px;
     position: absolute;
-    top: 1080px;
+    top: 9630px;
     color:rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
 }
@@ -244,7 +513,7 @@ footer {
 .contato {
     right: 200px;
     position: absolute;
-    top: 990px;
+    top: 9540px;
     color:rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
 }
@@ -252,7 +521,7 @@ footer {
 .email {
     right: 200px;
     position: absolute;
-    top: 1020px;
+    top: 9570px;
     color:rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
 }
@@ -260,7 +529,7 @@ footer {
 .telefone {
     right: 275px;
     position: absolute;
-    top: 1050px;
+    top: 9600px;
     color:rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
 }
